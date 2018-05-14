@@ -1,13 +1,4 @@
----
-abstract: |
-    —This paper presents an approach to robotic grasping analysis. It shows
-    how to check for feasibility of the grasp considered and then measure
-    the quality of the grasp.
-author:
-- 'Ghoshan Jaganathamani$^{1}$ [^1] [^2]'
-bibliography:
-- 'springer.bib'
-title: ' **Visualize Force closure for 2D Robotic Grasp** '
+
 ---
 
 INTRODUCTION
