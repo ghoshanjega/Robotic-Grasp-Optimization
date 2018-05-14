@@ -67,7 +67,7 @@ the respective boxes in the following manner.
 number of sides : 5,\
 vertices: 24 45 102 30 150 60 155 117 30 120]{}
 
-![Shows the user interface](img/ui.png){width="7cm"}
+![Shows the user interface](img/ui.png)
 
 2 CONTACT POINT GRASP
 =====================
@@ -102,8 +102,8 @@ contact points” button repeatedly to find another random point and
 perform the analysis on the given point.
 
 ![Shows 2 instances of 2 contact points
-calculation](img/2contact1.png "fig:"){width="4cm"} ![Shows 2 instances of 2
-contact points calculation](img/2contct2.png "fig:"){width="4cm"}
+calculation](img/2contact1.png "fig:") ![Shows 2 instances of 2
+contact points calculation](img/2contct2.png "fig:")
 
 3 CONTACT POINT GRASP
 =====================
@@ -113,8 +113,8 @@ random point and 2 compatible points are chosen. This is done
 recursively when 2 contact points are compatible.
 
 ![Shows 2 instances of 3 contact points
-calculation](img/3contact1.png "fig:"){width="4cm"} ![Shows 2 instances of 3
-contact points calculation](img/3contact2.png "fig:"){width="4cm"}
+calculation](img/3contact1.png "fig:") ![Shows 2 instances of 3
+contact points calculation](img/3contact2.png "fig:")
 
 QUALITY of GRASP
 ================
@@ -124,7 +124,8 @@ way to measure the quality would be to create a 3D Sphere between the
 contact points 3D wrench space. Since we assume for 2D space, the way to
 calculate the quality is to find the area of the circle inscribed
 between the wrench space of the compatible 2 or 3 contact points.
-$$Q_{\tiny VOP}=\hbox {Area}(\mathcal{P})$$
+
+$$Q_{\tiny VOP}=\text {Area}(\mathcal{P})$$
 
 A plot of for a given point is visualized as follows, where the
 dependant axis shows all the points that are compare,and independent
@@ -137,8 +138,9 @@ coordinates [
 Another quality measure proposed for polyhedral objects and based on a
 set ICRS is given by the sum of the distances between each one of the i
 -th actual contact points (xi,yi) and the center of the corresponding
-independent contact region (xi0,yi0,zi0) , i.e.\
-$$Q_{\tiny ICR^{\prime \prime }}=\frac{1}{n}\sum \limits _{i=1}^{n}\sqrt{\left( x_i-x_{i0}\right) ^2+\left( y_i-y_{i0}\right) ^2]$$
+independent contact region (xi0,yi0,zi0) , i.e.
+
+$$Q_{\tiny ICR^{\prime \prime }}=\frac{1}{n}\sum \limits _{i=1}^{n}\sqrt{\left( x_i-x_{i_0}\right)^2+\left( y_i-y_{i_0}\right)^2}$
 
 CONCLUSION
 ==========
@@ -183,8 +185,8 @@ REFERENCES
     188[195.]{}
 
 
-[^1]: \*This work was not supported by any organization
+[1]: \*This work was not supported by any organization
 
-[^2]: $^{1}$Ghoshan Jaganathamani is a 3rd year Computer Engineering
+[2]: $^{1}$Ghoshan Jaganathamani is a 3rd year Computer Engineering
     Student, Hong Kong University of Science and Technology, Hong Kong
     [github.com/ghoshanjega]{}
